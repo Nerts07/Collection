@@ -13,7 +13,7 @@ Note:
 
 The function asserts that source is not NULL.
 
-void copyMemory(void* destination, void* source, size_t size)
+#void copyMemory(void* destination, void* source, size_t size)
 Copies a block of memory from a source to a destination.
 
 Parameters:
@@ -28,7 +28,7 @@ Note:
 
 The function asserts that destination is not NULL.
 
-int* fillArrayInt(int* array, int b)
+#int* fillArrayInt(int* array, int b)
 Fills an integer array with a specified integer value.
 
 Parameters:
@@ -42,7 +42,7 @@ Note:
 
 The function assumes lenghtOf(array) returns the number of elements in array.
 
-void* lenghtOf(void* array)
+#void* lenghtOf(void* array)
 Returns the size of the specified array.
 
 Parameters:
@@ -55,7 +55,7 @@ Note:
 
 lenghtOf function currently returns the size of the pointer, not the actual length of the array. This needs to be addressed in order to correctly determine array length.
 
-void* weirdRandom(smth* seed)
+#void* weirdRandom(smth* seed)
 Generates a "randomized" value based on a structure's member value.
 
 Parameters:
@@ -68,7 +68,7 @@ Note:
 
 This function initializes the random number generator with the current time and modifies the value of seed->r with a random component.
 
-float normalizeVector2(Vector2* vec)
+#float normalizeVector2(Vector2* vec)
 Calculates the magnitude (norm) of a 2D vector.
 
 Parameters:
